@@ -60,7 +60,7 @@ author:			ruckage
 
 	</feature>
 	
-    <view name="video">
+	<view name="video">
 		
 		<video name="md_video">
 			<showSnapshotNoVideo>true</showSnapshotNoVideo>
@@ -75,7 +75,7 @@ author:			ruckage
 	</view>		
 	
 	
-    <view name="basic, detailed, video">
+	<view name="basic, detailed, video">
 	
 		<image name="background" extra="true">
 			<pos>0 0.5</pos>
@@ -130,8 +130,8 @@ author:			ruckage
 		</text>
 		
 		<datetime name="md_lastplayed">
-		<pos>1 1</pos>
-		<size>0.2 0.2</size>
+			<pos>1 1</pos>
+			<size>0.2 0.2</size>
 		</datetime>
 		
 		<datetime name="md_releasedate">
@@ -151,6 +151,8 @@ author:			ruckage
 			<alignment>left</alignment>
 			<horizontalMargin>0.0083333333333333</horizontalMargin>
 			<fontSize>0.0592592592592593</fontSize>
+			<pos>0.2959 0.2035</pos>
+			<size>0.4085 0.6</size>
 		</textlist>
 		
 
@@ -180,7 +182,7 @@ author:			ruckage
 		</sound>
 		 -->
 		 
-		 <sound name="launch">
+		<sound name="launch">
 			<path>./sounds/se_sys_click_game.wav</path>
 		</sound>
 		 
